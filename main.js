@@ -1,5 +1,5 @@
 import express, { Router } from "express"
-import router from "./src/router/router"
+import router from "./src/router/router.js"
 
 let app = express()
 
