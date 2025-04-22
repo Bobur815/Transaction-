@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "id": 1,
+        "fromUserId": "1",
+        "toUserId": "2",
+        "amount": "15000"
+    },
+    {
+        "id": 2,
+        "fromUserId": "4",
+        "toUserId": "5",
+        "amount": "1000"
+    },
+    {
+        "id": 4,
+        "fromUserId": "4",
+        "toUserId": "5",
+        "amount": "1000"
+    }
+]

@@ -13,4 +13,4 @@ const PUT = (req,res) => {
 }
 
 
-export default {GET_USERS,GET_TRANSACTION, POST, PUT}
+export default {GET_USERS,POST, PUT}
