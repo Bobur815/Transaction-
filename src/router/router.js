@@ -3,6 +3,7 @@ import usercontroller from "../controller/users.js"
 import transcontroller from "../controller/transaction.js"
 let router = Router()
 
+
 router
     .get("/transactions/history/:userId",transcontroller.GET_TRANSACTION)
     .post("/transactions/transfer",transcontroller.POST)
