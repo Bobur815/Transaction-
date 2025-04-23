@@ -1,9 +1,62 @@
 [
     {
-        "userId": "1",
-        "balance": 10000,
-
-        "monthlyLimit": 10,
-        "usedLimit": 0
-    }     
+        "userId": 1,
+        "balance": 500,
+        "monthlyLimit": 2000,
+        "usedLimit": 501
+    },
+    {
+        "userId": 2,
+        "balance": 4200,
+        "monthlyLimit": 5000,
+        "usedLimit": 1200
+    },
+    {
+        "userId": 3,
+        "balance": 800,
+        "monthlyLimit": 1000,
+        "usedLimit": 750
+    },
+    {
+        "userId": 4,
+        "balance": 4500,
+        "monthlyLimit": 6000,
+        "usedLimit": 3000
+    },
+    {
+        "userId": 5,
+        "balance": 220,
+        "monthlyLimit": 500,
+        "usedLimit": 200
+    },
+    {
+        "userId": 6,
+        "balance": 7600,
+        "monthlyLimit": 10000,
+        "usedLimit": 4000
+    },
+    {
+        "userId": 7,
+        "balance": 13000,
+        "monthlyLimit": 2500,
+        "usedLimit": 1000
+    },
+    {
+        "userId": 8,
+        "balance": 9500,
+        "monthlyLimit": 1500,
+        "usedLimit": 1450
+    },
+    {
+        "userId": 9,
+        "balance": 5000,
+        "monthlyLimit": 7000,
+        "usedLimit": 3500
+    },
+    {
+        "userId": 10,
+        "balance": 3000,
+        "monthlyLimit": 800,
+        "usedLimit": 600
+    }
 ]

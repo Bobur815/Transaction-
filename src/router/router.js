@@ -8,6 +8,6 @@ router
     .post("/transactions/transfer",transcontroller.POST)
     .get("/users/:userId",usercontroller.GET_USERS)
     .put("/users/:userId/limit",usercontroller.PUT)
-    .post("users",usercontroller.POST)
+    .post("/users",usercontroller.POST)
 
 export default router
