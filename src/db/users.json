@@ -1,5 +1,17 @@
 [
     {
+<<<<<<< HEAD
+        "userId": "1",
+        "balance": 10000,
+        "monthlyLimit": 10,
+        "usedLimit": 0
+    },
+    {
+        "userId": "2",
+        "balance": 5000,
+        "monthlyLimit": 5,
+        "usedLimit": 0
+=======
         "userId": 1,
         "balance": 500,
         "monthlyLimit": 2000,
@@ -58,5 +70,6 @@
         "balance": 3000,
         "monthlyLimit": 800,
         "usedLimit": 600
+>>>>>>> 9409ea01d144a3576c61f9e1a0a3191c346d7fd8
     }
 ]
