@@ -1,20 +1,58 @@
 [
     {
-        "id": 1,
-        "fromUserId": "1",
-        "toUserId": "2",
-        "amount": "15000"
+        "transactionId": 1,
+        "fromUserId": 1,
+        "toUserId": 2,
+        "amount": 15000,
+        "status": "success",
+        "timeStamp": "23/04/2025 8:36:51"
     },
     {
-        "id": 2,
-        "fromUserId": "4",
-        "toUserId": "5",
-        "amount": "1000"
+        "transactionId": 2,
+        "fromUserId": 251,
+        "toUserId": 2,
+        "amount": 15000,
+        "status": "failed",
+        "timeStamp": "23/04/2025 8:39:05"
     },
     {
-        "id": 4,
-        "fromUserId": "4",
-        "toUserId": "5",
-        "amount": "1000"
+        "transactionId": 3,
+        "fromUserId": 2,
+        "toUserId": 21,
+        "amount": 15000,
+        "status": "failed",
+        "timeStamp": "23/04/2025 8:39:23"
+    },
+    {
+        "transactionId": 4,
+        "fromUserId": 2,
+        "toUserId": 2,
+        "amount": 1500000,
+        "status": "failed",
+        "timeStamp": "23/04/2025 8:43:10"
+    },
+    {
+        "transactionId": 5,
+        "fromUserId": 1,
+        "toUserId": 2,
+        "amount": 500,
+        "status": "success",
+        "timeStamp": "23/04/2025 8:54:33"
+    },
+    {
+        "transactionId": 6,
+        "fromUserId": 1,
+        "toUserId": 2,
+        "amount": 500,
+        "status": "success",
+        "timeStamp": "23/04/2025 9:01:42"
+    },
+    {
+        "transactionId": 7,
+        "fromUserId": 1,
+        "toUserId": 2,
+        "amount": 500,
+        "status": "success",
+        "timeStamp": "23/04/2025 9:02:25"
     }
 ]
