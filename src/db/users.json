@@ -4,5 +4,11 @@
         "balance": 10000,
         "monthlyLimit": 10,
         "usedLimit": 0
-    }     
+    },
+    {
+        "userId": "2",
+        "balance": 5000,
+        "monthlyLimit": 5,
+        "usedLimit": 0
+    }
 ]
