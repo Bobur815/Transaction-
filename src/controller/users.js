@@ -1,6 +1,7 @@
 import fs from "fs"
 import path from "path"
 
+// Azizbek
 const GET_USERS = (req,res) => {
         let users = JSON.parse(fs.readFileSync(path.resolve("src","db/users.json")))
         let userId = req.params.userId;
@@ -17,6 +18,7 @@ const GET_USERS = (req,res) => {
     
 }
 
+// Azizbek 
 const POST = (req,res) => {
     try {
         let users = JSON.parse(fs.readFileSync(path.resolve("src","db/users.json")));
@@ -44,6 +46,8 @@ const POST = (req,res) => {
 
     
 }
+
+// Abdurahmon 
 const PUT = (req,res) => {
     let users = fs.readFileSync(path.join(process.cwd(),"src/db/users.json"));
     console.log(users);
