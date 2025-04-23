@@ -2,6 +2,7 @@
     {
         "userId": "1",
         "balance": 10000,
+
         "monthlyLimit": 10,
         "usedLimit": 0
     }     
