@@ -5,6 +5,7 @@ import path from "path"
 let trans = JSON.parse(fs.readFileSync(path.join(process.cwd(),"/src/db/transactions.json"),"utf-8"))
 let users = JSON.parse(fs.readFileSync(path.resolve("src","db/users.json")))
 
+// Boburmirzo Ergashev
 const GET_TRANSACTION = (req,res) => {
     let {userId} = req.params;
     if(!trans.some(tran => tran.fromUserId == userId)){
@@ -14,6 +15,8 @@ const GET_TRANSACTION = (req,res) => {
     trans = trans.filter(tran => tran.fromUserId == userId);
     res.status(200).send(trans)
 }
+
+// Boburmirzo Ergashev
 const POST = (req,res) => {
     let {fromUserId,toUserId,amount} = req.body;
     let currentuser = users.find(user => user.userId==fromUserId);
