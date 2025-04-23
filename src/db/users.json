@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "userId": "1",
+        "balance": 10000,
+        "monthlyLimit": 12,
+        "usedLimit": 0
+    }
+]
